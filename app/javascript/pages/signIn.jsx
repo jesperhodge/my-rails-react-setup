@@ -12,7 +12,7 @@ export default class extends Component {
       credentials: 'same-origin',
       method: 'POST',
       body: JSON.stringify({
-        email: 'jesper@instaffo.de',
+        email: 'developer@test.de',
         password: 'test1234'
       })
     }).then(function (response) {
