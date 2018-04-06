@@ -1,0 +1,37 @@
+@import 'layout_responsive';
+
+body {
+  margin: 0;
+  font-size: 100%;
+}
+
+h1 {
+  margin: 0;
+}
+
+.main {
+  font-family: 'Mukta Malar', 'roboto', sans-serif;
+  color: my-app-color('primary');
+  background-color: my-app-color('background');
+  min-height: 100vh;
+  // padding: 1vh 1vh 0 1vh;
+}
+
+.main-view {
+  display: flex;
+  align-content: stretch;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  min-height: 100vh;
+  padding: $content-spacing;
+  box-sizing: border-box;
+
+  .unified-display {
+    margin: $content-spacing;
+    flex-basis: 100%;
+  }
+}
+
+h1 {
+  font-weight: 500;
+}

@@ -1,0 +1,9 @@
+@import 'layout.scss';
+
+.footer {
+  // background-color: my-app-color('white');
+  color: my-app-color('primary');
+  min-height: 2rem;
+  text-align: center;
+  box-sizing: border-box;
+}

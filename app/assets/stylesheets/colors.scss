@@ -1,0 +1,25 @@
+$my-app-colors: (
+  'primary': #34495e,
+  'primary-light': #60748b,
+  'primary-dark': #201f25,
+  'better-primary': #2d3d61,
+  'darker-primary': #001648,
+  'secondary': #f1c40f,
+  'better-secondary': #fff20b,
+  'secondary-light': #fff653,
+  'secondary-light-alt': #fff566,
+  'lightning-white': #fff566,
+  'secondary-dark': #ba9400,
+  'font': rgba(0, 0, 0, 0.54),
+  'white': #ffffff,
+  'black': #000000,
+  'background': #e9e9e9
+);
+
+@function my-app-color($key: 'primary') {
+  @return map-get($my-app-colors, $key);
+}
+
+@function my-app-alpha($key: 'primary', $newAlpha: .5) {
+  @return change-color(map-get($my-app-colors, $key), $alpha: $newAlpha)
+}

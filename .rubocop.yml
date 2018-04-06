@@ -1,0 +1,75 @@
+AllCops:
+  TargetRubyVersion: 2.3
+  Include:
+    - '**/Rakefile'
+    - '**/config.ru'
+    - '**/Gemfile'
+    - '**/Guardfile'
+  Exclude:
+    - aim_api/config/**
+    - aim_panel/config/**
+    - bin/*
+    - company_panel/config/**/*
+    - config/**/*
+    - config/**/*
+    - db/**/*
+    - expert_panel/config/**/*
+    - node_modules/**/*
+    - script/**/*
+Metrics/LineLength:
+  Max: 120
+Style/Documentation:
+  Enabled: false
+Metrics/ClassLength:
+  Max: 400
+Metrics/MethodLength:
+  Max: 30
+Metrics/AbcSize:
+  Max: 30
+Style/ClassAndModuleChildren:
+  Enabled: false
+Layout/SpaceInsideArrayLiteralBrackets:
+  EnforcedStyle: no_space
+Layout/SpaceInsideHashLiteralBraces:
+  EnforcedStyle: space
+Style/MutableConstant:
+  Enabled: false
+Style/RedundantSelf:
+  Enabled: false
+Style/TernaryParentheses:
+  Enabled: false
+Style/Lambda:
+  EnforcedStyle: literal
+Style/FrozenStringLiteralComment:
+  Enabled: false
+Style/PercentLiteralDelimiters:
+  PreferredDelimiters:
+    "%i": "()"
+    "%w": "()"
+Metrics/ModuleLength:
+  Enabled: false
+Metrics/BlockLength:
+  ExcludedMethods:
+    - 'xdescribe'
+    - 'describe'
+    - 'context'
+    - 'xcontext'
+    - 'let'
+    - 'it'
+    - 'before'
+    - 'xit'
+    - 'included'
+    - 'class_methods'
+    - 'shared_examples_for'
+    - 'shared_context'
+    - 'factory'
+    - 'define'
+    - 'namespace'
+    - 'task'
+    - 'draw'
+Style/FormatStringToken:
+  EnforcedStyle: template
+Style/TrailingCommaInLiteral:
+  EnforcedStyleForMultiline: comma
+Style/TrailingCommaInArguments:
+  EnforcedStyleForMultiline: comma
