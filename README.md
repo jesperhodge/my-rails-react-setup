@@ -8,7 +8,7 @@
 
 ### Functionality already set up:
 - User model
-- roles and teams for users (optional? db constraints?)
+- roles and teams for users
 - Signup and Login backend
 - an empty frontend with some space for stuff and a header using material-ui (easy to change, you can replace material-ui)
 
