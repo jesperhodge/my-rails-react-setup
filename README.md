@@ -19,7 +19,7 @@
 - require / allow authentication
 
 ### Setup (incomplete instructions)
-- install ruby (2.3.3??) via rvm for now, will be changed to rbenv
+- install ruby (2.3.3) via rvm for now, will be changed to rbenv
 - `bundle install`
 - install Node if you haven't
 - install yarn
