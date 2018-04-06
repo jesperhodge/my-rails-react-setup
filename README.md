@@ -24,7 +24,8 @@
 - install Node if you haven't
 - install yarn
 - `yarn install`
-- `bin/rails db:migrate`
+- copy config/database.example.yml into database.yml (change what you see fit)
+- `bin/rails db:setup`
 - `bin/rails server`
 - in a new terminal tab: `bin/webpack-dev-server`
 - open localhost:3000 in the browser.
