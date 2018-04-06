@@ -17,6 +17,7 @@
 - Refactor the whatwg-fetch call that allows you to send requests to your rails server
 - a database that is not mysqlite (for production at least), e.g. mysql or better, postgres
 - require / allow authentication
+- the copyright line at the bottom of the page is just for fun, you can remove it or do whatever you want, the license is MIT.
 
 ### Setup (incomplete instructions)
 - install ruby (2.3.3) via rvm for now, will be changed to rbenv
