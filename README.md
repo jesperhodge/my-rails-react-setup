@@ -20,7 +20,7 @@
 - the copyright line at the bottom of the page is just for fun, you can remove it or do whatever you want, the license is MIT.
 
 ### Setup (incomplete instructions)
-- install ruby (2.3.3) via rvm for now, will be changed to rbenv
+- install ruby (2.3.3)
 - `bundle install`
 - install Node if you haven't
 - install yarn
